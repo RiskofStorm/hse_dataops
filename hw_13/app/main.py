@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from Kubernetes"}
+    return {"message": "Wake up and smell the ashes"}
