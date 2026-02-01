@@ -1,7 +1,0 @@
-services:
-  web:
-    image: riskofstorm/fastapi-k8s-demo:v1
-    container_name: fastapi-k8s-local
-    ports:
-      - "8000:8000"
-    restart: unless-stopped
